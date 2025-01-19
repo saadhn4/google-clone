@@ -116,12 +116,14 @@ span {
 }
 
 footer {
+  background-color: #101312;
   margin-top: auto;
   margin-bottom: 10px;
 }
 
 .country {
   color: white;
+  margin-top: 10px;
   margin-left: 15px;
   margin-bottom: 15px;
 }
