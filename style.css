@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Arial;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #1A1C1D;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+  margin-bottom: 150px;
+}
+
+.navbar .left-section ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.navbar .left-section ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: text-decoration 0.15s
+}
+
+.navbar .left-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.navbar .right-section ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.navbar .right-section ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+
+}
+
+.navbar .right-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.navbar .right-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 100vw; */
+}
+
+.logo {
+  width: 300px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#search-box {
+  width: 600px;
+  border: none;
+  border-radius: 40px;
+  padding: 15px;
+  background-color: #3C4345;
+  color: white;
+  margin-bottom: 20px;
+}
+
+button {
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 8px 10px;
+  background-color: #26282B;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.search {
+  margin-right: 10px;
+}
+
+.some-text {
+  color: white;
+}
+
+span {
+  color: blue;
+  margin-left: 5px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+
+.country {
+  color: white;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+
+}
+
+.left-links ul {
+  margin-left: 15px;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.left-links ul a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.right-links ul {
+  margin-right: 15px;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.right-links ul a {
+  text-decoration: none;
+  color: white;
+
+}
